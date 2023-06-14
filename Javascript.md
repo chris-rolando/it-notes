@@ -1,10 +1,5 @@
 # Handbook: Javascript
 
-Version: 5-23
-Simbologia: 🤘 Capitulo | 👍 revisado | 🦖 nota | 🤖 important | 🚩 bookmark | 🐲 caso de uso | 🧑‍💻 code |
-
----
-
 # 🤘 Base
 
 ## Que es JS?
