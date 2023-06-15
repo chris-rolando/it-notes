@@ -2,7 +2,7 @@
 
 🚩 Leer antes Fundamentos.md
 
-# 🤘 Base
+# 🤘 1: Base
 
 ## Que es JS?
 
@@ -68,15 +68,17 @@
 
 - Para **identificar el tipo de dato** de un valor.
 
-- 🧑‍💻 `typeof 007;`
+-  `typeof 007;`
 
-## 🚩 Plantillas literales - template strings!
+## 🤖 Plantillas literales - template strings!
 
 - 🦖 Usar: alt+96
 
-- 🤖 **Code**: `console.log(`Hola ${nombre}`)`
+- 🧑‍💻 `console.log(`Hola ${nombre}`)`
 
 ## Coerción - casteo
+
+🚩 Ver conversión implícita y explícita?
 
 - 🦖 Consiste en **transformar de un tipo de dato a otro**.
 - 🧑‍💻 
@@ -106,7 +108,7 @@
 - "Funcion normal".
 - 🦖 Se procesan en el **hoisting**
 
-- **Code**
+- 🧑‍💻
   ```
   function miFuncion(a, b) {
       return a + b;
@@ -119,7 +121,7 @@
 - 🦖 Se definen como una expresión!
 - 🤖 Puede ser asignada a una variable.
 
-- **Code**:
+- 🧑‍💻
   `let resultado= function (a,b){ return a + b }`
 
 ### 🚩 IIFE (Immediately Invoked Function Expression)
@@ -128,24 +130,24 @@
 - 🦖 Es anónima!
 - 🤖 No se puede reutilizar!
 
-- **Code**
+- 🧑‍💻
   ```
   (function () {
   console.log("Soy una IIFE");
   })();
   ```
 
-### 🚩 Funcion Flecha - Arrow function
+### 🤖 Funcion Flecha - Arrow function
 
 - Funciones de **una sola línea**.
 
-- **Code**
+- 🧑‍💻
   ```
   const saludar = () => console.log("Hola");
   saludar();
   ```
 
-### 🤖 Caracteristicas
+### Ampliando conceptos
 
 - Las **funciones declarativas se se mueven al principio** del ámbito por lo que se pueden llamar antes de su definición.
 - Las **funciones de expresión NO se elevan** por lo que solo se pueden llamar después de su definición.
@@ -162,8 +164,6 @@
 - Son valores verdaderos y falsos cuando se realiza una coerción a booleano: 0, "", NaN, undefined o null.
 - Todo valor que no sea falsy es truthy incluyendo las estructuras vacías de array y objetos: Boolean([]), Boolean({}) // true.
 
-
-
 ## Modo estricto
 
 - 🤖 Es un conjunto de **reglas y características** que proporcionan **mayor seguridad y control** en el código.
@@ -172,7 +172,7 @@
 
 - Ejecutar código que podría generar un error, y capturar el error en caso de que ocurra.
 
-- **Code**
+- 🧑‍💻
   ```
   try { //Código a probar
   } catch (error) { //Código en caso de error
@@ -183,7 +183,7 @@
 
 - Crea un nuevo objeto de error con un mensaje.
 
-- **Code**
+- 🧑‍💻
   ```
   try {
   const num = 100;
@@ -203,7 +203,7 @@
 
 - Se utiliza para **detener la ejecución** del código en un punto específco.
 
-- **Code**
+- 🧑‍💻
   ```
   let numero = 5;
   debugger;

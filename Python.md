@@ -2,7 +2,7 @@
 
 🚩 Leer antes Fundamentos.md
 
-# 🤘 Base
+# 🤘 1: Base
 
 ## Que es Python?
 
@@ -37,6 +37,8 @@ x % y Modulo operator returns the remainder part of the integer division of x by
 - tuple 
 - set
 - dict
+
+##
 
 # 🤘 Cap: Estructuras de control
 
