@@ -1,37 +1,43 @@
 # Handbook: Javascript
 
+🚩 Leer antes Fundamentos.md
+
 # 🤘 Base
 
 ## Que es JS?
 
-- Leguaje para programar aplicaciones web...
 - 🦖 Da dinamismo a la web.
-
-## Caracteristicas
-
+- Leguaje para programar aplicaciones web...
 - Dinámico.
 - Interpretado.
 - Orientado a objetos.
 - Débilmente tipado.
 
-## Variable
+## Hola mundo!
+- 🧑‍💻
+```
+    console.log("Hola mundo");
+```
 
-- Es un **espacio reservado en memoria** para guardar información!
-- 🦖 Cajitas donde guardamos cosas.
+## Operadores aritméticos
 
-- **Code**:
+- Simples: 2 + 3; 5 - 3; 4 \* 2; 6 / 2;
+- ( % ) residuo: 21 % 5 //el resultado es 1
+- Concatenar strings: "Hola, " + "mundo"
+- asignación (=)
+- de igualdad (==)
+- mismo tipo (===)
+- Asignación de (+=, \*=, -=, /=)
+- Desigualdad por valor (!=)
+  - "3" != 3 // false
+- Menor que 3 < 5, Mayor que 3 > 5
+- De disyunción lógico: AND (&&)
+- De unión lógico: OR (||)
+- De negación lógico: NOT (!)
 
-  ```
-  // declarar e inicializar
-  let miVariable = "es variable";
-  const miConstante = "es constante";
-  let numero: // declarar
-  numero= 1; // inicializar
-  ```
+## Tipos de datos
 
-- 🦖 **"Var" da problemas**: con el scope global!
-
-### Tipos de datos
+- 🤖 **"Var" da problemas** con el scope global, no usar!
 
 - number.
 - string.
@@ -43,11 +49,11 @@
 - bigint.
 - symbol.
 
-#### 🚩 Symbol
+### 🤖 Symbol
 
 - Tipo de dato único para crear identificadores únicos.
 
-- **Code**
+- 🧑‍💻
 
 ```
     const simbolo = Symbol();
@@ -58,16 +64,11 @@
     };
 ```
 
-## camelCase
-
-- 🦖 let, const, function: "miNombreEs"
-- 🦖 class: "MiClaseEs"
-
 ## Operdor typeof
 
 - Para **identificar el tipo de dato** de un valor.
 
-- **Code**: `typeof 007;`
+- 🧑‍💻 `typeof 007;`
 
 ## 🚩 Plantillas literales - template strings!
 
@@ -78,7 +79,7 @@
 ## Coerción - casteo
 
 - 🦖 Consiste en **transformar de un tipo de dato a otro**.
-- **Code**
+- 🧑‍💻 
   ```
   4 + "7" // 47
   4 * "7" // 28
@@ -91,19 +92,14 @@
   - Number()
   - String()
   - Boolean().
-- **Code**
+- 🧑‍💻 
   ```
   Number("47") // 47
   String(51) // "51"
   Boolean(1) // true
   ```
 
-## 🚩 Funciones
-
-- 🤖 **Bloques de codigo que realizan una tarea específica** y se ejecutan cuando son llamados.
-- Puede recibir argumentos.
-- Puede retornar un valor.
-- Son reutilizables.
+## Funciones
 
 ### Funcion Declarativa
 
@@ -166,21 +162,7 @@
 - Son valores verdaderos y falsos cuando se realiza una coerción a booleano: 0, "", NaN, undefined o null.
 - Todo valor que no sea falsy es truthy incluyendo las estructuras vacías de array y objetos: Boolean([]), Boolean({}) // true.
 
-## Operadores
 
-- Simples: 2 + 3; 5 - 3; 4 \* 2; 6 / 2;
-- ( % ) residuo: 21 % 5 //el resultado es 1
-- Concatenar strings: "Hola, " + "mundo"
-- asignación (=)
-- de igualdad (==)
-- mismo tipo (===)
-- Asignación de (+=, \*=, -=, /=)
-- Desigualdad por valor (!=)
-  - "3" != 3 // false
-- Menor que 3 < 5, Mayor que 3 > 5
-- De disyunción lógico: AND (&&)
-- De unión lógico: OR (||)
-- De negación lógico: NOT (!)
 
 ## Modo estricto
 

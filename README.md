@@ -1,5 +1,12 @@
 # Version: 23.06
-Simbologia: 🤘 Capitulo | 👍 revisado | 🦖 nota | 🤖 important | 🚩 bookmark | 🐲 caso de uso | 🧑‍💻 code |
+Simbologia: 
+    🤘 Capitulo 
+    👍 revisado 
+    🦖 nota 
+    🚩 contexto
+    🐲 caso de uso
+    🧑‍💻 code
+    🤖 important!
 
 # it-notes
 
