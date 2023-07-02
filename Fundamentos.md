@@ -1,12 +1,12 @@
-# Conceptos basicos
-- No olvidar
+# Conceptos
+<!-- Nota: leer periodicamente -->
 
 ## camelCase?
 
 - 🦖 let, const, function: "miNombreEs"
 - 🦖 class: "MiClaseEs"
 
-## que es una VARIABLE?
+## Variable?
 
 - 🦖 Son cajitas donde guardamos cosas.
 - Es un **espacio reservado en memoria** para guardar info!
@@ -54,7 +54,7 @@
     numero = 1; // inicializar
 ```
 
-## que es una FUNCION?
+## Funcion?
 
 - 🦖 Es un **bloque de código para hacer una tarea** que se ejecuta cuando es llamada!
 - Puede ser llamada o invocada.
@@ -97,6 +97,10 @@
 
     Console.WriteLine(Sumar(3, 4)); // Imprime 7
 ```
+
+## lenguaje interpretado
+
+## lenguaje compilado
 
 ## Que es conversión implícita y explícita?
 - **Implícita**: el intérprete convierte automáticamente un tipo de dato en otro, **sin tener que indicar que lo haga**.
