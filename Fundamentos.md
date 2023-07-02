@@ -102,6 +102,8 @@
 
 ## lenguaje compilado
 
+## IDE?
+
 ## Que es conversión implícita y explícita?
 - **Implícita**: el intérprete convierte automáticamente un tipo de dato en otro, **sin tener que indicar que lo haga**.
 - **Explícita**: **convertimos manualmente** un tipo de dato a otro llamando a la función correspondiente para el tipo de dato al que queremos convertir.

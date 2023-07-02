@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# jugando con scripts 
-
 # Declarar e inicializar variables
 
 mi_variable = "es variable"
