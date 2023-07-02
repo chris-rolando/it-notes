@@ -1,4 +1,7 @@
-## Usamos camelCase?
+# Conceptos basicos
+- No olvidar
+
+## camelCase?
 
 - 🦖 let, const, function: "miNombreEs"
 - 🦖 class: "MiClaseEs"
@@ -101,3 +104,4 @@
 
 ## Refactorización
 - Proceso para reestructurar el código sin cambiar su funcionalidad.
+
