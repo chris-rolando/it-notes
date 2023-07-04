@@ -113,3 +113,6 @@
 
 ## Garbage collector?
 - Se encarga de liberar la memoria que ya no se está utilizando.
+
+## framework
+ is a conceptual tool that provides guidance on the best practices and processes for solving  problems and building solutions that solve the problems of real users.
