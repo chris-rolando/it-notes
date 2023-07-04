@@ -111,3 +111,5 @@
 ## Refactorización
 - Proceso para reestructurar el código sin cambiar su funcionalidad.
 
+## Garbage collector?
+- Se encarga de liberar la memoria que ya no se está utilizando.
