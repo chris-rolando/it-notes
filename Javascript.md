@@ -1,6 +1,6 @@
-# Handbook: Javascript
+# Javascript
 
-🚩 Leer antes Fundamentos.md
+- Apuntes y notas personales sobre JS
 
 # 🤘 1: Base
 

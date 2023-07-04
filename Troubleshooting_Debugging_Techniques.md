@@ -1,30 +1,35 @@
 # Troubleshooting Debugging
 
-## troubleshooting?
+- Apuntes y notas personales para **identificar y resolver problemas** de IT.
+- Requisitos: Python y Linux. 
+
+# 🤘 Base
+
+## Troubleshooting?
 
 - The process of identifying, analyzing, and **solving problems**.
 
-## debugging?
+## Debugging?
 
 - The process of identifying, analyzing, and **removing bugs**.
 
 ## Problem Solving Steps:
 
-1. **First: is getting information**:
+1. First: **Getting information**:
    Gathering as much information as we need.
    One resource is the reproduction case, which is a clear description of how and when the problem appears.
-2. **Second step is finding the root cause**
-3. **Finally step is performing the necessary remediation**
-4. Document the problem and the solution.
+2. Second: **Finding the root cause**
+3. Finally: **Performing the necessary remediation**
+4. Extra step: **Document** the problem and the solution.
 
 ## Linear search?
 
-- An **unordered list!**
+- Only if we have an **unordered list!**
 - Going through the elements one by one from the beginning to the end.
 
 ## Binary search?
 
-- An **sorted list!**
+- Only if we have an **sorted list!**
 - It divides the list in half repeatedly using the search value as a parameter until it is found.
 
 ### 🧑‍💻
