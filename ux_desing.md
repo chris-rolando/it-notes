@@ -41,10 +41,10 @@
 
 ### Phaess:
 1. Empathize
-2. define
-3. ideate
-4. prototype
-5. test
+2. Define
+3. Ideate
+4. Prototype
+5. Test
 
 ## Considerations desing:
 - Averaga session {mobile: 72 sec; desktop: 150 sec;}
@@ -53,7 +53,7 @@
 - ...
 
 ## Responsive web desing:
--Allos to change auto depending on the screen
+- Change automat depending on the screen
 
 ### Best practices for mobile:
 1. Call-to-action buttons should be placed front and center, allowing the user to easily complete the desired task. 
@@ -61,4 +61,15 @@
 3. Use gestures that users already do, like tapping and swiping. 
 4. Design for both directions a phone might be held. Consider the vertical portrait view of a mobile phone and the horizontal landscape view. 
 5. Reduce visual clutter. Mobile phones have smaller screen sizes, so it's important to keep the visual experience simple.
+
+## Design Sprint: 
+- A time-bound process, with 5 phases typically spread over 5 - 8 hour days. 
+- Is to answer critical business questions through designing, prototyping, and testing ideas with users.
+
+### pases:
+1. Undestand
+2. Ideate
+3. Decide
+4. Prototype
+5. Test
 
