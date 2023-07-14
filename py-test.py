@@ -21,3 +21,22 @@ def sumar(a, b):
   return a + b
 
 print(sumar(3, 4))  # Imprime 7
+
+print("Mi", "nombre", "es", "Monty", "Python.", sep="-")
+
+
+
+x = int(input())
+y = int(input())
+ 
+print(x + y)
+
+
+
+#anything = float(input("Ingresa un número: "))
+#something = anything ** 2.0
+#print(anything, "a la potencia de 2 es", something)
+
+
+
+

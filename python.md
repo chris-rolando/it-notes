@@ -1,8 +1,8 @@
 # Handbook: Python
 
-🚩 Leer antes Fundamentos.md
+- Apuntes y notas personales sobre JS
 
-# 🤘 1: Base
+# 🤘 Base
 
 ## Que es Python?
 
@@ -10,6 +10,7 @@
 - multipropósito. 
 - interpretado.
 - de código abierto. 
+- orientado a objetos
 
 ## Hola mundo!
 - 🧑‍💻

@@ -1,6 +1,16 @@
 # Javascript
 
-- Apuntes y notas personales sobre JS
+- Apuntes y recordatorios sobre JS
+- 🧑‍💻: code
+- 🦖: nota personal
+- 🤖: truco
+- 🚩: bookmark
+- 🤘: You Rock!
+
+
+On it
+
+
 
 # 🤘 1: Base
 
@@ -71,10 +81,9 @@
 -  `typeof 007;`
 
 ## 🤖 Plantillas literales - template strings!
+- 🦖 en Windows usar: alt+96   
 
-- 🦖 Usar: alt+96
-
-- 🧑‍💻 `console.log(`Hola ${nombre}`)`
+- 🧑‍💻 console.log(`Hola ${nombre}`);
 
 ## Coerción - casteo
 
@@ -930,33 +939,9 @@ En este ejemplo, se define una función getUserData que hace la misma llamada a 
 
 # 🤘👍 POO - OOP
 
-- Un paradigma es una teoría que suministra la base y modelo para resolver problemas.
+## POO y JS?
 
-## ¿Que es POO?
-
-- Es un **Paradigma de programación que se enfoca en el uso de objetos** para representar conceptos del mundo real.
 - JS es un lenguaje orientado a objetos basado en prototipos, los objetos tienen una relación de prototipo entre ellos.
-- 4 elementos:
-  - Clases
-  - Propiedades
-  - Métodos
-  - Objetos
-- 4 Pilares:
-  - Encapsulamiento
-  - Abstracción
-  - Herencia
-  - Polimorfismo
-
-## Que son los objetos?
-
-- Tienen
-  - Propiedades o atributos: son los sustantivos
-  - Comportamientos o operaciones: son los verbos
-- Pueden ser:
-  - Fisicos
-  - Conceptuales
-
-🦖 Objeto Perrito[propiedad:nombre, raza; comportamiento: ladrar, correr;]
 
 ## Ejemplo JS:
 
@@ -1076,7 +1061,7 @@ perro.respirar(); // Output: "Respirando..."
 perro.ladrar(); // Output: "Guau!"
 Object.create() que se usa para crear un nuevo objeto con un prototipo específico. Este método recibe un objeto como primer parámetro y devuelve un nuevo objeto con ese objeto como su prototipo.
 
-## Protoripos
+## Prototipos
 
 - Un prototipo es un objeto del cual otros objetos heredan propiedades.
 - Cada objeto tiene una propiedad especial llamada “prototype”, que apunta a otro objeto del cual hereda propiedades. Si un objeto no tiene una propiedad específica, JavaScript busca en su prototipo, y así sucesivamente hasta encontrar la propiedad o llegar al objeto base Object.prototype.
